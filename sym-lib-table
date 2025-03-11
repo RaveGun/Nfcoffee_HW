@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "microsd")(type "Legacy")(uri "/home/cox/Development/NFCaffeV4/OLIMEX_Connectors.lib")(options "")(descr ""))
+)
