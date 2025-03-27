@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,1206,1,100nF,
+J1,PinHeader_1x02_P2.54mm_Horizontal,1,Conn_Buzz,
+J5,PinSocket_1x04_P2.54mm_Vertical,1,Conn_OLED,
+J6,PinSocket_1x08_P2.54mm_Vertical,1,Conn_PN532_NFC,
+MICRO_SD,J_SD_Card-micro_socket_A,1,MICRO_SD(TFC-9P-1.xH(ATFFS150A01BR016)),
+Q1,SOT-23_Handsoldering,1,BSS123,
+RBUZZ,1206,1,R,
+RSCK1,1206,1,22R,
+U1,WEMOS_D1_mini_light,1,WEMOS_D1_mini,

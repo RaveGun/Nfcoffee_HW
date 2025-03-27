@@ -52,7 +52,12 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|51957500|52390000|f1ac8f4e-8e2f-4cf6-963a-c070e052925e|00000000-0000-0000-0000-000000000000",
+          "removed no copper area to allow for routing"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -132,7 +137,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -449,7 +454,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nfcoffeev4.kicad_pro",
+    "filename": "nfcoffee.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -488,7 +493,7 @@
       "plot": "./Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "nfcoffee.step",
       "svg": "",
       "vrml": ""
     },
